@@ -8,12 +8,8 @@
 ## Step 2 Choose an Amazon Machine Image
 ![alt tag](https://i.imgur.com/d5ec93W.jpg)
 
-## Step 3 
-![alt tag](https://i.imgur.com/uONHLhZ.jpg)
-
-##or
-
-![alt tag](https://i.imgur.com/9Ot9tJd.jpg)
+## Step 3 Click Connect Button
+![alt tag](https://i.imgur.com/6iv5JUq.jpg)
 
 ## Step 4 Download PEM file
 
