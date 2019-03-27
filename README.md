@@ -2,18 +2,14 @@
 Take note of AWS EC2 Provisioning Procedure
 
 # Table of Content
-[EC2 Instance Setup Procedure]()
-[]()
-[]()
-[]()
-[]()
-[]()
+[EC2 Instance Setup Procedure](#ec2-instance-setup-procedure)
+[Step 1 VPC Dashboard ---> Lauch EC2 Instance](#step-1-vpc-dashboard-----lauch-ec2-instance)
+[Step 2 Choose an Amazon Machine Image](#step-2-choose-an-amazon-machine-image)
+[Step 3 Click Connect Button](#step-3-click-connect-button)
+[Step 4 Download PEM file and Convert to PPk for PuTTY on Windows](#step-4-download-pem-file-and-convert-to-ppk-for-putty-on-windows)
+[Step 5 Login AWS EC2 by PuTTY on Windows](#step-5-login-aws-ec2-by-putty-on-windows)
 []()
 [Reference](#reference)
-
-
-
-
 
 
 # EC2 Instance Setup Procedure
@@ -34,10 +30,13 @@ Take note of AWS EC2 Provisioning Procedure
 Category--> Connection--> SSH--> Auth--> Browse to select folder that locates PPK file
 ![alt tag](https://i.imgur.com/epfoPyK.jpg)
 
-Open PuTTY then keyin ubuntu@publicDNS in Host Name field
-Keyin Session name in Saved Sessions field then click Save button
-Click Open buttion
+Open PuTTY then keyin ubuntu@publicDNS in Host Name field  
+Keyin Session name in Saved Sessions field then click Save button  
+Click Open buttion  
 ![alt tag](https://i.imgur.com/aaq0oey.jpg)
+
+AWS Default Account:
+![alt tag](https://lh6.googleusercontent.com/NUmd2kXO3k974AZw3TbA90Lil7cApAm0FDW6hqU0tuuPh0ohS7rkSWPkYKzR7hJ_NCDsGJ45o2FvbS4F9ONsiu_1k-3nQ-uIuASCMN3TPUHIknsQ8DwPd74UdqlvZ6p63bAgkvRP)
 
 Then Enjoy!
 ![alt tag](https://i.imgur.com/a2EKR0v.jpg)
