@@ -1,8 +1,24 @@
 # Purpose
+Take note of AWS EC2 Provisioning Procedure
+
+# Table of Content
+[EC2 Instance Setup Procedure]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[Reference](#reference)
+
+
+
+
+
 
 # EC2 Instance Setup Procedure
 
-## Step 1 VPC Dashboard ---> Lauch EC Instance
+## Step 1 VPC Dashboard ---> Lauch EC2 Instance
 ![alt tag](https://i.imgur.com/6dKEh7Y.jpg)
 
 ## Step 2 Choose an Amazon Machine Image
@@ -11,8 +27,20 @@
 ## Step 3 Click Connect Button
 ![alt tag](https://i.imgur.com/6iv5JUq.jpg)
 
-## Step 4 Download PEM file
+## Step 4 Download PEM file and Convert to PPk for PuTTY on Windows
+* [[ AWS ] 將 AWS EC2 的 .pem 檔轉換為 .ppk 檔教學 23 April 2018](https://oranwind.org/-aws-jiang-aws-ec2-de-pem-dang-zhuan-huan-wei-ppk-dang-jiao-xue/)
 
+## Step 5 Login AWS EC2 by PuTTY on Windows
+Category--> Connection--> SSH--> Auth--> Browse to select folder that locates PPK file
+![alt tag](https://i.imgur.com/epfoPyK.jpg)
+
+Open PuTTY then keyin ubuntu@publicDNS in Host Name field
+Keyin Session name in Saved Sessions field then click Save button
+Click Open buttion
+![alt tag](https://i.imgur.com/aaq0oey.jpg)
+
+Then Enjoy!
+![alt tag](https://i.imgur.com/a2EKR0v.jpg)
 
 # Troubleshooting
 
@@ -56,7 +84,7 @@ excerpt
 ```
 
 * [[ AWS ] Windows 登入 AWS EC2 教學 23 April 2018](https://oranwind.org/-aws-windows-deng-ru-aws-ec2-jiao-xue/)
-
+* [[ AWS ] 將 AWS EC2 的 .pem 檔轉換為 .ppk 檔教學 23 April 2018](https://oranwind.org/-aws-jiang-aws-ec2-de-pem-dang-zhuan-huan-wei-ppk-dang-jiao-xue/)
 * [AWS 設定Load Balancer 教學(含SSL憑證) 2018-10-17](https://liangdaddy.com/2018/10/17/aws-%e8%a8%ad%e5%ae%9aload-balancer-%e6%95%99%e5%ad%b8%e5%90%abssl%e6%86%91%e8%ad%89/)
 * [AWS 免費SSL憑證申請教學(有條件的) 2018-10-17](https://liangdaddy.com/2018/10/17/aws-%e5%85%8d%e8%b2%bbssl%e6%86%91%e8%ad%89%e7%94%b3%e8%ab%8b%e6%95%99%e5%ad%b8%e6%9c%89%e6%a2%9d%e4%bb%b6%e7%9a%84/)
 
